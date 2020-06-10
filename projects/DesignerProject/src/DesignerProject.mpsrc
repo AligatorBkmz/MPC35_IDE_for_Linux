@@ -1,0 +1,19 @@
+program DesignerProject;
+uses Graphics;
+var
+wi,hi,i:integer;
+s:string;
+begin
+
+
+	Debug('OK');
+
+        s:='1234567890';
+        s:=s+'qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq';
+        drawText(s,5,5,70,100);
+
+
+	Repaint; Delay(5);
+        delay(5000);
+
+end.

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <Project>
+    <MIDlet Icon="/icon.png" Name="gthjfhyhj" Vendor="MIDletPascal3" Version="1.0.0"/>
+    <Sources>
+      <Source filename="gthjfhyhj.mpsrc"/>
+    </Sources>
+    <Resources>
+      <Resource filename="icon.png" configurations=":all:"/>
+    </Resources>
+    <BuildConfigurations>
+      <configuration math="1" name="Default" type="normal" version="1"/>
+      <ActiveConfiguration index="0"/>
+    </BuildConfigurations>
+  </Project>
+

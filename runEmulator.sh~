@@ -1,0 +1,1 @@
+java -jar "/home/ubuntu/Рабочий стол/MicroEmulator.jar" "/home/ubuntu/Рабочий стол/mpcIDE_linux/projects/NewProject/bin/NewProject.jar"

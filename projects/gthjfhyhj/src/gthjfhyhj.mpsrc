@@ -1,0 +1,7 @@
+program gthjfhyhj;
+begin
+     setColor($00, $00, $7f);
+     drawText('Hello world!', 0, 0);
+     Repaint;  //drawing
+     Delay(5000);
+end.   

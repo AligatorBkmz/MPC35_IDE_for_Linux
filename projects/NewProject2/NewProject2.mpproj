@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <MIDlet Icon="/icon.png" Name="NewProject2" Vendor="MIDletPascal3" Version="1.0.0"/>
+  <Sources>
+    <source filename="NewProject2.mpsrc"/>
+  </Sources>
+  <Resources>
+    <resource filename="icon.png" configurations=":all:"/>
+  </Resources>
+  <BuildConfigurations>
+    <configuration math="1" name="Default" type="normal" version="1"/>
+    <ActiveConfiguration index="0"/>
+  </BuildConfigurations>
+  <Project>
+    <MIDlet Name="P4.mpsrc"/>
+  </Project>
+</Project>

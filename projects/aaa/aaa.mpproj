@@ -1,0 +1,13 @@
+<Project>
+    <MIDlet Icon="/icon.png" Name="aaa" Vendor="MIDletPascal3" Version="1.0.0"/>
+    <Sources>
+      <source filenameCount="2" filenameItem1="/home/ubuntu/Рабочий стол/mpcIDE_linux_source/projects/aaa/src/aaa.mpsrc" filenameItem2="/home/ubuntu/Рабочий стол/mpcIDE_linux_source/projects/aaa/src/Unit1.pas"/>
+    </Sources>
+    <Resources>
+      <resource filename="icon.png" configurations=":all:"/>
+    </Resources>
+    <BuildConfigurations>
+      <configuration math="1" name="Default" type="normal" version="1"/>
+      <ActiveConfiguration index="0"/>
+    </BuildConfigurations>
+  </Project>

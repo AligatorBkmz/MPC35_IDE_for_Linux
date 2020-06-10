@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>MIDletPascal 3.0 Documentation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333399;
+}
+body {
+	background-color: #FFFFFF;
+}
+a:link {
+	color: #333399;
+}
+a:visited {
+	color: #333399;
+}
+a:hover {
+	color: #666666;
+}
+a:active {
+	color: #333399;
+}
+-->
+</style></head>
+
+<body>
+<p><font size=+2>
+
+<b>What's New in the MIDletPascal 3.x IDE</b> \ Project Handling
+
+</font></p>
+<table width="100%"  border="0">
+  <tr>
+    <td height="3" bgcolor="#EEEE00"></td>
+  </tr>
+</table><br>
+
+<a name="bscripts"/>
+<b>Script Building Event Handling</b>
+<br/>
+<i>since 3.0</i>
+<br/>
+
+<p>Now you can handle several building events by batch script files located in the scripts subdirectory of the project root.<br/>
+<br/>
+This might be useful for you for many reasons like running external tools your project may need, backup the generated JAR files, modify automatically JAD files, include more files to the JAR if some external condition occurs, or just copy automatically the JAR file to your cellphone after it is created successfully.</p>
+
+<a name="backcomp"/>
+<b>Background Compilation</b>
+<br/>
+<i>since 3.0</i>
+<br/>
+
+<p>In MP 3.0 the building process takes place in the background, so you can continue editing your source files.<br/>
+<br/>
+Just remember the IDE will take a snapshot of the source code files by the time you send the Build order to the IDE, so if you change a source file after that, that changes will not be included in the current compilation (you will need to rebuild to get those changes included).</p>
+
+<a name="sccfilec"/>
+<b>Current File Compilation</b>
+<br/>
+<i>since 3.0</i>
+<br/>
+
+<p>Now you can compile the current source file only if you want to. Just press Shift+F7 in the Code Editor, or click the menu item Project \ Compile Current File.</p>
+
+<a name="stopbprc"/>
+<b>Stop Build Process</b>
+<br/>
+<i>since 3.0</i>
+<br/>
+
+<p>Now you can stop the current build process by the menu item Project \ Stop Build Process, also accesible via the Ctrl+F2 key combination.<br/>
+The building process will be stopped after the current building stage has finished. This means you will have to wait a little sometimes.</p>
+
+
+</body>
+</html>

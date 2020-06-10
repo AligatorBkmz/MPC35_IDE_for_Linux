@@ -1,0 +1,43 @@
+Program Font32test;
+
+Uses	font32;//, alpha;
+
+Var 	i, k, wi, hi: integer;
+
+		s, nn, f1, f2: string;
+
+		im: image;
+
+
+
+Begin
+
+	font32.init(3);
+
+	wi:=GetWidth; hi:=GetHeight;
+
+	Font(0); LoadFont('Verdana_7');
+
+	Font(1); LoadFont('Verdana_11');
+
+	Font(0);
+
+//Debug('OK');
+
+	TextWindow(5, 5, 60, 100);
+        s:='dddddddddddddddddddddddddddddddddddddddddddd';
+        s:=s+'eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee';
+
+	i:=Format(s, 0);
+
+
+
+	
+	SetColor(0, 255, 0); FillRect(5,5,60,100);
+
+        DrawTextWindow;
+
+	Repaint; Delay(5);
+        delay(5000);
+
+End.

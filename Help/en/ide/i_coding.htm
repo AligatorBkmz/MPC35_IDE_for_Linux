@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>MIDletPascal 3.0 Documentation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333399;
+}
+body {
+	background-color: #FFFFFF;
+}
+a:link {
+	color: #333399;
+}
+a:visited {
+	color: #333399;
+}
+a:hover {
+	color: #666666;
+}
+a:active {
+	color: #333399;
+}
+-->
+</style></head>
+
+<body>
+<p><font size=+2>
+
+<b>What's New in the MIDletPascal 3.x IDE</b> \ Source Code Handling
+
+</font></p>
+<table width="100%"  border="0">
+  <tr>
+    <td height="3" bgcolor="#EEEE00"></td>
+  </tr>
+</table><br>
+
+<a name="spreproc"/>
+<b>Preprocessing</b>
+<br/>
+<i>since 3.0</i>
+<br/>
+
+<p>In the Code Editor's inner tab called Preprocess you will find an additional code viewer that will show you how the code will look for the compiler after the preprocessor takes care of it.</p>
+
+<a name="defines"/>
+<b>Conditional Defines</b>
+<br/>
+<i>since 3.0</i>
+<br/>
+
+<p>Now you can define your own conditional defines by the $DEFINE directive, undefine them by the $UNDEF directive, and check them by the $IFDEF and $IFNDEF directives just like in any other well-known pascal dialect.<br/>
+<br/>
+MP 3.0 defines by default the following coditional defines:
+<ul>
+<li><b>J2ME</b> <i>(platform related)</i></li>
+<li><b>MPC</b> <i>(compiler related)</i></li>
+<li><b>MIDLETPASCAL30</b> <i>(ide related)</i> -- note: MP 3.0 defines MIDLETPASCAL30, MP 3.1 defines MIDLETPASCAL30 and MIDLETPASCAL31, and so on</li>
+</ul>
+</p>
+
+<a name="shistory"/>
+<b>History Keeping</b>
+<br/>
+<i>since 3.0</i>
+<br/>
+
+<p>In Settings \ Keep History menu item you will find the switch to enabled or disable this feature. If Keep History is on, the IDE will store source file histories in the history subdirectory in the project root.<br/>
+<br/>
+In the Code Editor's inner tab called History, in it's Contents tab you will find a historical source file content viewer with two options: Send to Buffer (to overwrite the current code editor's content with that old version) and Rollback to this Version (to discard the newer versions and go back to that version of the file).</p>
+
+<a name="schkdiff"/>
+<b>Check Differences</b>
+<br/>
+<i>since 3.0</i>
+<br/>
+
+<p>In the Code Editor's inner tab called History, in it's Difference tab you will find the integrated difference tool that will let you see the differences between two versions of the file. The purple colored lines indicates modified ones, the red lines the removed ones, and the blue ones the added lines.</p>
+
+<a name="scformat"/>
+<b>Source Code Formatting</b>
+<br/>
+<i>since 3.1</i>
+<br/>
+
+<p>Now you can format your Pascal source code to meet the highest redability standards.</p>
+
+</body>
+</html>
